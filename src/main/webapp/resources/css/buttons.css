@@ -1,0 +1,68 @@
+#loc1{
+    position: absolute;
+    top: 5.5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#loc2{
+    position: absolute;
+    top: 5.5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-design{
+    background: none;
+    color: #E3EDF2;
+    width: 125px;
+    height:40px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-style: inherit;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.btn-design{
+    outline: none;
+}
+
+.btn-design{
+    content: '';
+    display: block;
+    position: absolute;
+
+    opacity: .5;
+}
+
+.btn-design:after{
+    content: '';
+    display: block;
+    position: absolute;
+
+    opacity: 0;
+}
+
+.btn-design:hover{
+    background: #131313;
+    cursor: pointer;
+}
+
+.btn-design{
+    background-color: #2282B5;
+}
+
+.btn-design:hover:before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.btn-design:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
