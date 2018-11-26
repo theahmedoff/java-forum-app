@@ -1,9 +1,11 @@
 package com.step.forum.servlet;
 
+import com.mysql.cj.xdevapi.JsonArray;
 import com.step.forum.constants.MessageConstants;
 import com.step.forum.constants.NavigationConstants;
 import com.step.forum.dao.CommentDaoImpl;
 import com.step.forum.dao.TopicDaoImpl;
+import com.step.forum.job.PopularTopicsUpdater;
 import com.step.forum.model.Comment;
 import com.step.forum.model.Topic;
 import com.step.forum.model.User;
@@ -11,6 +13,7 @@ import com.step.forum.service.CommentService;
 import com.step.forum.service.CommentServiceImpl;
 import com.step.forum.service.TopicService;
 import com.step.forum.service.TopicServiceImpl;
+import org.json.JSONArray;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,12 +21,25 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "TopicServlet", urlPatterns = "/ts")
 public class TopicServlet extends HttpServlet {
 
     private TopicService topicService = new TopicServiceImpl(new TopicDaoImpl());
     private CommentService commentService = new CommentServiceImpl(new CommentDaoImpl());
+    private PopularTopicsUpdater updater;
+
+    @Override
+    public void init() throws ServletException {
+        updater = new PopularTopicsUpdater(topicService);
+        updater.startJob();
+    }
+
+    @Override
+    public void destroy() {
+        updater.stopJob();
+    }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         processRequest(request, response);
@@ -82,6 +98,26 @@ public class TopicServlet extends HttpServlet {
             request.setAttribute("mes", MessageConstants.SUCCESS_COMMENT_MESSAGE);
             request.getRequestDispatcher(NavigationConstants.PAGE_LOGIN);
 
+        }else if (action.equals(NavigationConstants.ACTION_GET_POPULAR_TOPICS)){
+            List<Topic> listTopics = updater.getPopularTopics();
+            JSONArray jsonArray = new JSONArray(listTopics);
+            response.setContentType("application/json");
+            response.getWriter().write(jsonArray.toString());
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

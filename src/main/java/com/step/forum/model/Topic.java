@@ -17,6 +17,7 @@ public class Topic {
     private int viewCount;
     private User user;
     private List<Comment> commentList;
+    private int commentCount;
 
     public Topic(){
         commentList = new ArrayList<>();

@@ -7,36 +7,502 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579ab3f0-21d6-409a-b53f-c5f7922175bd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/external/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/external/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/css/material-design-iconic-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/css/material-design-iconic-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/Montserrat-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/montserrat/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/Poppins-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-300italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-500italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-600.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-600.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-600.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-600.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-600.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-700italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-800italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/poppins-v5-latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/fonts/raleway/Raleway-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/avatar-blank.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/avatar4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/bg-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icons/icon-google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icons/map-marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icons/symbol-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/img-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/radio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/signin-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/signup-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/slide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/external/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/forum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/font/revicons90c6.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/font/revicons90c6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/font/revicons90c6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/font/revicons90c6.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/js/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/jquery/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/css/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/css/material-design-iconic-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/css/material-design-iconic-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/Montserrat-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/montserrat/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/Poppins-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-300italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-500italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-600.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-600.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-600.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-600.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-600.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-700italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-800italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/poppins-v5-latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/fonts/raleway/Raleway-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/bg-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/icons/icon-google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/icons/map-marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/icons/symbol-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/images/img-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/js/forum.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/constants/NavigationConstants.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/constants/NavigationConstants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/dao/CommentDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/dao/CommentDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/dao/CommentDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/dao/CommentDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/service/CommentService.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/service/CommentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/service/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/service/CommentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/CommentServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/CommentServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/NavigationServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/NavigationServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/dao/TopicDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/dao/TopicDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/dao/TopicDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/dao/TopicDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/dao/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/model/Topic.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/model/Topic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/service/TopicService.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/service/TopicService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/service/TopicServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/service/TopicServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/TopicServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/TopicServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/UserServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/step/forum/servlet/UserServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/constants/NavigationConstants.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/constants/NavigationConstants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/CommentDAO.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/CommentDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/CommentDaoImpl.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/CommentDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/CommentService.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/CommentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/CommentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/CommentServlet.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/CommentServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/NavigationServlet.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/NavigationServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/TopicDAO.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/TopicDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/TopicDaoImpl.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/TopicDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/dao/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/model/Topic.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/model/Topic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/model/User.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/TopicService.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/TopicService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/TopicServiceImpl.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/service/TopicServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/TopicServlet.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/TopicServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/UserServlet.class" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/classes/com/step/forum/servlet/UserServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/step_forum_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/step_forum_app_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/service/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/service/CommentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/service/CommentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/service/CommentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/CommentServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/CommentServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/NavigationServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/NavigationServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-forum-app.iml" afterPath="$PROJECT_DIR$/step-forum-app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/header.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/imports.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/imports.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/right-menu.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/fragment/right-menu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/topic.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/topic.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/register.jsp" afterPath="$PROJECT_DIR$/target/step-forum-app/WEB-INF/view/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/css/custom.css" afterPath="$PROJECT_DIR$/target/step-forum-app/resources/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/step-forum-app/resources/css/style.css" afterPath="$PROJECT_DIR$/target/step-forum-app/resources/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,51 +515,124 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-276">
+              <caret line="24" column="137" lean-forward="false" selection-start-line="24" selection-start-column="137" selection-end-line="24" selection-end-column="137" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="173">
+              <caret line="48" column="76" lean-forward="false" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="288">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imports.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp">
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state relative-caret-position="137">
+              <caret line="86" column="48" lean-forward="false" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+              <folding>
+                <marker date="1543249803396" expanded="true" signature="747:863" ph="insert into user... " />
+                <marker date="1543249803396" expanded="true" signature="914:962" ph="select count... " />
+                <marker date="1543249803396" expanded="true" signature="1013:1061" ph="select count... " />
+                <marker date="1543249803396" expanded="true" signature="1110:1161" ph="select * fro... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttons.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/buttons.css">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/util/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="128">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp">
+      <file leaf-file-name="TopicDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="-179">
+              <caret line="123" column="62" lean-forward="false" selection-start-line="123" selection-start-column="62" selection-end-line="123" selection-end-column="62" />
+              <folding>
+                <element signature="method#incrementTopicViewCount#0;class#TopicDaoImpl#0" expanded="false" />
+                <element signature="method#newTopic#0;class#TopicDaoImpl#0" expanded="false" />
+                <element signature="method#getPopularTopic#0;class#TopicDaoImpl#0" expanded="false" />
+                <marker date="1543249803318" expanded="true" signature="486:811" ph="select t.id_... topic" />
+                <marker date="1543249803318" expanded="true" signature="862:1364" ph="select t.id_... topic" />
+                <marker date="1543249803318" expanded="true" signature="1428:1478" ph="update topic... " />
+                <marker date="1543249803318" expanded="true" signature="1527:1630" ph="insert into topic... " />
+                <marker date="1543249803318" expanded="true" signature="1684:1868" ph="select t.id_... topic" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+              <folding>
+                <element signature="method#addComment#0;class#CommentDaoImpl#0" expanded="false" />
+                <element signature="method#getCommentByIdTopic#0;class#CommentDaoImpl#0" expanded="false" />
+                <marker date="1541455956244" expanded="true" signature="436:518" ph="insert into comment... " />
+                <marker date="1541455956244" expanded="true" signature="577:742" ph="select c.id_... comment" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-topic.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/new-topic.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -105,9 +644,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,43 +670,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/external/main.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register-2.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/util/ValidationUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/util/CryptoUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/DuplicateEmailException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InvalidPasswordException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InactiveAccountException.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InvalidEmailException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/constants/UserConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/filter/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/Action.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/constants/MessageConstants.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/new-topic.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/NavigationServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/external/forum.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/forum.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDAO.java" />
@@ -179,9 +700,27 @@
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/buttons.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/job/PopularTopicsUpdater.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/constants/TopicConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/util/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java" />
       </list>
     </option>
   </component>
@@ -201,7 +740,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -225,61 +764,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -287,25 +834,25 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -313,26 +860,42 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="forum-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum-web" type="462c0819:PsiDirectoryNode" />
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="step-forum-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="step-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="step-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="vusal@gmail.com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/step-java-web-maven" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41034484" />
@@ -344,11 +907,11 @@
       <recent name="C:\New folder\New folder\forum-web\src\main\webapp\resources\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\akmedoff\Desktop\forum-web\src\main\webapp\resources" />
-      <recent name="C:\Users\akmedoff\Desktop\forum-web\src\main\webapp\resources\js\external" />
-      <recent name="C:\Users\akmedoff\Desktop\forum-web\src\main\webapp\resources\images" />
-      <recent name="C:\Users\akmedoff\Desktop\forum-web\src\main\webapp\resources\fonts" />
-      <recent name="C:\Users\akmedoff\Desktop\forum-web\src\main\webapp\resources\css\external" />
+      <recent name="C:\Users\akmedoff\Desktop\GitHub\java-forum-app\src\main\webapp\resources" />
+      <recent name="C:\Users\akmedoff\Desktop\GitHub\java-forum-app\src\main\webapp\resources\js\external" />
+      <recent name="C:\Users\akmedoff\Desktop\GitHub\java-forum-app\src\main\webapp\resources\fonts\external" />
+      <recent name="C:\Users\akmedoff\Desktop\GitHub\java-forum-app\src\main\webapp\resources\css\external" />
+      <recent name="C:\Users\akmedoff\Desktop\GitHub\java-forum-app\src\main\webapp\resources\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -576,19 +1139,24 @@
       <workItem from="1540756316419" duration="3365000" />
       <workItem from="1541053282090" duration="769000" />
       <workItem from="1541159796837" duration="908000" />
+      <workItem from="1541456243386" duration="1819000" />
+      <workItem from="1541501955405" duration="2994000" />
+      <workItem from="1541527373995" duration="688000" />
+      <workItem from="1543193418587" duration="1745000" />
+      <workItem from="1543243685664" duration="7625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98275000" />
+    <option name="totallyTimeSpent" value="113146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,26 +1164,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43092105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,46 +1201,18 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/util/CryptoUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/DuplicateEmailException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InvalidPasswordException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InactiveAccountException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/exceptions/InvalidEmailException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/UserConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/filter/SecurityFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/util/ValidationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -698,34 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="6" column="97642" lean-forward="false" selection-start-line="6" selection-start-column="97642" selection-end-line="6" selection-end-column="97642" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/external/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="522" column="3" lean-forward="false" selection-start-line="522" selection-start-column="3" selection-end-line="522" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -757,34 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="102" column="55" lean-forward="true" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/MessageConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -792,38 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/new-topic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="22" column="99" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -841,27 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="163" column="32" lean-forward="false" selection-start-line="163" selection-start-column="32" selection-end-line="163" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -876,13 +1311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/forum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/forum.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -897,17 +1326,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/CommentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
           <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/buttons.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/service/TopicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/job/PopularTopicsUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/NavigationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/right-menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/external/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/external/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/vendor/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/TopicServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="104" column="61" lean-forward="false" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="77" column="73" lean-forward="false" selection-start-line="77" selection-start-column="73" selection-end-line="77" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,50 +1461,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/imports.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/UserConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        <state relative-caret-position="207">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/buttons.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/constants/TopicConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="92">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/CommentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="method#addComment#0;class#CommentDaoImpl#0" expanded="false" />
+            <element signature="method#getCommentByIdTopic#0;class#CommentDaoImpl#0" expanded="false" />
+            <marker date="1541455956244" expanded="true" signature="436:518" ph="insert into comment... " />
+            <marker date="1541455956244" expanded="true" signature="577:742" ph="select c.id_... comment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/new-topic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="24" column="137" lean-forward="false" selection-start-line="24" selection-start-column="137" selection-end-line="24" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="195" column="16" lean-forward="true" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/TopicDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="123" column="62" lean-forward="false" selection-start-line="123" selection-start-column="62" selection-end-line="123" selection-end-column="62" />
+          <folding>
+            <element signature="method#incrementTopicViewCount#0;class#TopicDaoImpl#0" expanded="false" />
+            <element signature="method#newTopic#0;class#TopicDaoImpl#0" expanded="false" />
+            <element signature="method#getPopularTopic#0;class#TopicDaoImpl#0" expanded="false" />
+            <marker date="1543249803318" expanded="true" signature="486:811" ph="select t.id_... topic" />
+            <marker date="1543249803318" expanded="true" signature="862:1364" ph="select t.id_... topic" />
+            <marker date="1543249803318" expanded="true" signature="1428:1478" ph="update topic... " />
+            <marker date="1543249803318" expanded="true" signature="1527:1630" ph="insert into topic... " />
+            <marker date="1543249803318" expanded="true" signature="1684:1868" ph="select t.id_... topic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="86" column="48" lean-forward="false" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+          <folding>
+            <marker date="1543249803396" expanded="true" signature="747:863" ph="insert into user... " />
+            <marker date="1543249803396" expanded="true" signature="914:962" ph="select count... " />
+            <marker date="1543249803396" expanded="true" signature="1013:1061" ph="select count... " />
+            <marker date="1543249803396" expanded="true" signature="1110:1161" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/util/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragment/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="173">
+          <caret line="48" column="76" lean-forward="false" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/step/forum/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/topic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="91">
+          <caret line="74" column="47" lean-forward="true" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
           <folding />
         </state>
       </provider>

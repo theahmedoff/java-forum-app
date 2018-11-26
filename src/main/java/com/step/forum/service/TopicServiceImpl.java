@@ -33,4 +33,9 @@ public class TopicServiceImpl implements TopicService {
     public boolean newTopic(Topic topic) {
         return topicDao.newTopic(topic);
     }
+
+    @Override
+    public List<Topic> getPopularTopic() {
+        return topicDao.getPopularTopic();
+    }
 }

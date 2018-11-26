@@ -11,7 +11,7 @@
 
     <c:import url="${pageContext.request.contextPath}/WEB-INF/fragment/imports.jsp"/>
     <!-- Font Icon -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fonts/external/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/external/style.css">

@@ -9,4 +9,5 @@ public interface TopicService {
     Topic getTopicById(int id);
     boolean incrementTopicViewCount(int id, int count);
     boolean newTopic(Topic topic);
+    List<Topic> getPopularTopic();
 }

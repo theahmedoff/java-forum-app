@@ -11,6 +11,7 @@ public class User {
     private String lastName;
     private String firstName;
     private String token;
+    private String imagePath;
     private int status;
     private Role role;
 

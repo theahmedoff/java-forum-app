@@ -16,17 +16,22 @@ import com.step.forum.util.CryptoUtil;
 import com.step.forum.util.ValidationUtil;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import java.io.DataInput;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.rmi.server.UID;
 import java.util.UUID;
 
 @WebServlet(name = "UserServlet", urlPatterns = "/us")
+//Image size
+@MultipartConfig(maxFileSize = 1024 * 1024 * 5,
+                    maxRequestSize = 1024 * 1024 * 10)
 public class UserServlet extends HttpServlet {
 
     UserService userService = new UserServiceImpl(new UserDaoImpl());
@@ -64,10 +69,22 @@ public class UserServlet extends HttpServlet {
                 request.getRequestDispatcher(NavigationConstants.PAGE_REGISTER);
             }
 
+            Part img = request.getPart("img");
+            Path pathToSaveFile = Paths.get(getServletContext().getRealPath("/"), "uploads", email);
+
+            if (!Files.exists(pathToSaveFile)){
+                Files.createDirectories(pathToSaveFile);
+            }
+
+            Path file = Paths.get(pathToSaveFile.toString(), img.getSubmittedFileName());
+            Files.copy(img.getInputStream(), file, StandardCopyOption.REPLACE_EXISTING);
+            Path pathToSaveDatabase = Paths.get(email, img.getSubmittedFileName());
+
             User user = new User();
             user.setFirstName(firsName);
             user.setLastName(lastName);
             user.setEmail(email);
+            user.setImagePath(pathToSaveDatabase.toString());
             user.setPassword(CryptoUtil.inputToHash(password));
             String token = UUID.randomUUID().toString();
             user.setToken(token);
@@ -79,7 +96,6 @@ public class UserServlet extends HttpServlet {
             try {
                 boolean result = userService.register(user);
                 if (result){
-                    System.out.println(user);
                     request.setAttribute("message", MessageConstants.SUCCESS_REGISTER_MESSAGE);
                     request.getRequestDispatcher(NavigationConstants.PAGE_LOGIN).forward(request, response);
                 }
@@ -90,6 +106,7 @@ public class UserServlet extends HttpServlet {
             }
 
 
+
         }else if (acion.equals(NavigationConstants.ACTION_DO_LOGIN)){
             String email = request.getParameter("email");
             String password = request.getParameter("password");
@@ -98,9 +115,12 @@ public class UserServlet extends HttpServlet {
 
                 User user = userService.login(email, CryptoUtil.inputToHash(password));
 
+
                 if (user != null){
                     HttpSession session = request.getSession();
                     session.setAttribute("user", user);
+                    System.out.println("User-----------------");
+                    System.out.println(user);
                     response.sendRedirect("/");
                 }
             }catch (InvalidEmailException | InvalidPasswordException | InactiveAccountException e){
@@ -115,6 +135,7 @@ public class UserServlet extends HttpServlet {
                 session.invalidate();
                 response.sendRedirect("/");
             }
+
         }
 
     }

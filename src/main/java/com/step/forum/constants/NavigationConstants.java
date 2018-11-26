@@ -10,6 +10,7 @@ public class NavigationConstants {
     public static final String ACTION_DO_LOGIN = "do-login";
     public static final String ACTION_LOGOUT = "logout";
     public static final String ACTION_COMMENT = "comment";
+    public static final String ACTION_GET_POPULAR_TOPICS = "get-popular-topics";
     //JSP
     public static final String PAGE_PREFIX_VIEW = "/WEB-INF/view/";
     public static final String PAGE_PREFIX_FRAGMENT = "/WEB-INF/fragment/";

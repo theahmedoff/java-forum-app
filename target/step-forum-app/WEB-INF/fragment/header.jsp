@@ -21,19 +21,19 @@
 
             <c:choose>
                 <c:when test="${sessionScope.user eq null}">
-                    <div class="wrapper">
-                        <div class="btn">
-                            <form action="${pageContext.request.contextPath}/ns?action=login" method="post" class="form">
-                            <button class="btn-design" id="loc1" type="submit"> Sign in </button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="wrapper">
-                        <div class="btn">
+                    <div class="col-lg-4 col-xs-12 col-sm-5 col-md-4 avt">
+                        <div class="stnt pull-left">
                             <form action="${pageContext.request.contextPath}/ns?action=register" method="post" class="form">
-                            <button class="btn-design" id="loc2" type="submit"> Sign up </button>
+                                <button class="btn btn-primary" type="submit">Sign up</button>
                             </form>
                         </div>
+
+                        <div class="avatar pull-left dropdown">
+                            <form action="${pageContext.request.contextPath}/ns?action=login" method="post" class="form">
+                                <button class="btn btn-primary" type="submit">Sign in</button>
+                            </form>
+                        </div>
+                        <div class="clearfix"></div>
                     </div>
                 </c:when>
                 <c:otherwise>
@@ -45,7 +45,8 @@
                         </div>
 
                         <div class="avatar pull-left dropdown">
-                            <a data-toggle="dropdown" href="#"><img src="${pageContext.request.contextPath}/resources/images/avatar.jpg" alt="" /></a> <b class="caret"></b>
+                            <a data-toggle="dropdown" href="#"><img
+                                    src="${pageContext.request.contextPath}/uploads/${user.imagePath}" alt="" /></a> <b class="caret"></b>
                             <ul class="dropdown-menu" role="menu">
                                 <li role="presentation"><a role="menuitem" tabindex="-3" href="${pageContext.request.contextPath}/us?action=logout">Log Out</a></li>
                             </ul>

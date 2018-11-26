@@ -19,7 +19,7 @@ import java.util.List;
 
 public class UserDaoImpl implements UserDAO {
 
-    private final String REGISTER_USER_SQL = "insert into user(email, password, token, status, id_role, first_name, last_name) values(?, ?, ?, ?, ?, ?, ?)";
+    private final String REGISTER_USER_SQL = "insert into user(email, password, token, status, id_role, first_name, last_name, img) values(?, ?, ?, ?, ?, ?, ?, ?)";
     private final String GET_EMAIL_COUNT_SQL = "select count(*) as count from user where email=?";
     private final String GET_TOKEN_COUNT_SQL = "select count(*) as count from user where token=?";
     private final String GET_USER_BY_EMAIL = "select * from user where email = ? and password = ?";
@@ -46,6 +46,7 @@ public class UserDaoImpl implements UserDAO {
             ps.setInt(5, user.getRole().getId());
             ps.setString(6, user.getFirstName());
             ps.setString(7, user.getLastName());
+            ps.setString(8, user.getImagePath());
             ps.executeUpdate();
 
             result = true;
@@ -83,6 +84,7 @@ public class UserDaoImpl implements UserDAO {
                 u.setPassword(rs.getString("password"));
                 u.setToken(rs.getString("token"));
                 u.setStatus(rs.getInt("status"));
+                u.setImagePath(rs.getString("img"));
                 Role r = new Role();
                 r.setId(rs.getInt("id_role"));
                 u.setRole(r);

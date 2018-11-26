@@ -51,16 +51,9 @@ a:hover {
 /*-----------------------------------------------------------------*/
 /*--- Footer ---*/
 
-.btn-design{
-    font-size: medium;
-    background: #0f3e68;
-    background-color: #0f3e68;
-}
-
-
 footer {
-    height: 69px !important;
-    line-height: 69px !important;
+    height: 69px;
+    line-height: 69px;
     color: #363838;
 }
 
@@ -200,6 +193,8 @@ ul.socialicons li a:hover {
 
 .avatar img {
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 .avatar .status {
@@ -878,7 +873,7 @@ a.down:hover {
 
 
 /*-----------------------------------------------------------------*/
-/*--- #register.jsp - NEW ACCOUNT ---*/
+/*--- #new-account.jsp - NEW ACCOUNT ---*/
 
 .acccap h3 {
     padding: 7px;
