@@ -7,6 +7,8 @@ import com.step.forum.exceptions.InvalidEmailException;
 import com.step.forum.exceptions.InvalidPasswordException;
 import com.step.forum.model.User;
 
+import java.sql.SQLException;
+
 public class UserServiceImpl implements UserService {
 
     private UserDAO userDAO;
@@ -16,12 +18,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean register(User user) throws DuplicateEmailException {
-        return userDAO.register(user);
+    public void register(User user) throws SQLException, DuplicateEmailException {
+        userDAO.register(user);
     }
 
     @Override
-    public User login(String email, String password) throws InvalidEmailException, InactiveAccountException, InvalidPasswordException {
+    public User login(String email, String password) throws SQLException, InvalidEmailException, InactiveAccountException, InvalidPasswordException {
         return userDAO.login(email, password);
     }
 }

@@ -6,9 +6,10 @@ import com.step.forum.exceptions.InvalidEmailException;
 import com.step.forum.exceptions.InvalidPasswordException;
 import com.step.forum.model.User;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public interface UserDAO {
-    boolean register(User user) throws DuplicateEmailException;
-    User login(String email, String password) throws InvalidEmailException, InactiveAccountException, InvalidPasswordException;
+    void register(User user) throws DuplicateEmailException, SQLException;
+    User login(String email, String password) throws InvalidEmailException, InactiveAccountException, InvalidPasswordException, SQLException;
 }

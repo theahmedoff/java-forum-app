@@ -14,7 +14,7 @@
         $(function () {
             var topicID = $('#topic-id').val();
            $.ajax({
-               url: '/cs?action=get-comments',
+               url: '/cs?action=get-comments-by-id',
                dataType: 'HTML',
                method: 'GET',
                data: 'id=' + topicID,

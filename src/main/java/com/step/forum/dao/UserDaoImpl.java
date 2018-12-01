@@ -26,13 +26,10 @@ public class UserDaoImpl implements UserDAO {
 
 
     @Override
-    public boolean register(User user) throws DuplicateEmailException {
+    public void register(User user) throws DuplicateEmailException, SQLException {
         Connection con = null;
         PreparedStatement ps = null;
-        boolean result = false;
-
         try {
-
             if (!isValidEmail(user.getEmail())){
                 throw new DuplicateEmailException(MessageConstants.ERROR_MESSAGE_DUPLICATE_EMAIL);
             }
@@ -49,18 +46,13 @@ public class UserDaoImpl implements UserDAO {
             ps.setString(8, user.getImagePath());
             ps.executeUpdate();
 
-            result = true;
-
-        } catch (SQLException e) {
-            e.printStackTrace();
         } finally {
             DbUtil.closeAll(con, ps);
         }
-        return result;
     }
 
     @Override
-    public User login(String email, String password) throws InvalidEmailException, InactiveAccountException, InvalidPasswordException {
+    public User login(String email, String password) throws SQLException, InvalidEmailException, InactiveAccountException, InvalidPasswordException {
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -94,8 +86,6 @@ public class UserDaoImpl implements UserDAO {
                 throw new InvalidEmailException(MessageConstants.ERROR_MESSAGE_INVALID_EMAIL);
             }
 
-        }catch (SQLException e){
-            e.printStackTrace();
         }finally {
             DbUtil.closeAll(con , ps, rs);
         }

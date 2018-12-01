@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 @WebServlet(name = "NavigationServlet", urlPatterns = "/ns")
@@ -43,27 +44,34 @@ public class NavigationServlet extends HttpServlet {
         if (action.equals(NavigationConstants.ACTION_TOPIC)){
 
             Integer topicID = Integer.parseInt(request.getParameter("id"));
-            Topic topic = topicService.getTopicById(topicID);
+            Topic topic = null;
+            try {
+                topic = topicService.getTopicById(topicID);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             topic.setViewCount(topic.getViewCount() + 1);
             int viewCount = topic.getViewCount();
-            boolean result = topicService.incrementTopicViewCount(topicID, viewCount);
-            if (!result){
-                System.err.println("Error View Count");
+            try {
+                topicService.incrementTopicViewCount(topicID, viewCount);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
             request.setAttribute("topic", topic);
-
-
-
             address = NavigationConstants.PAGE_TOPIC;
 
         }else if (action.equals(NavigationConstants.ACTION_NEW_TOPIC)){
             address = NavigationConstants.PAGE_NEW_TOPIC;
+
         }else if (action.equals(NavigationConstants.ACTION_REGISTER)){
             address = NavigationConstants.PAGE_REGISTER;
+
         }else if (action.equals(NavigationConstants.ACTION_LOGIN)){
             address = NavigationConstants.PAGE_LOGIN;
+
         }else if (action.equals(NavigationConstants.ACTION_REGISTER)){
             address = NavigationConstants.PAGE_REGISTER;
+
         }else if (action.equals(NavigationConstants.ACTION_INDEX)){
             address = NavigationConstants.PAGE_INDEX;
         }
@@ -72,7 +80,5 @@ public class NavigationServlet extends HttpServlet {
         if (address != null){
             request.getRequestDispatcher(address).forward(request, response);
         }
-
-
     }
 }

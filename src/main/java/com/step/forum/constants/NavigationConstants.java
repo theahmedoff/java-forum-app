@@ -9,8 +9,9 @@ public class NavigationConstants {
     public static final String ACTION_NEW_TOPIC = "new-topic";
     public static final String ACTION_DO_LOGIN = "do-login";
     public static final String ACTION_LOGOUT = "logout";
-    public static final String ACTION_COMMENT = "comment";
+    public static final String ACTION_ADD_COMMENT = "add-comment";
     public static final String ACTION_GET_POPULAR_TOPICS = "get-popular-topics";
+    public static final String ACTION_GET_COMMENTS_BY_TOPIC_ID = "get-comments-by-id";
     //JSP
     public static final String PAGE_PREFIX_VIEW = "/WEB-INF/view/";
     public static final String PAGE_PREFIX_FRAGMENT = "/WEB-INF/fragment/";
@@ -25,5 +26,7 @@ public class NavigationConstants {
     public static final String PAGE_FOOTER = PAGE_PREFIX_FRAGMENT + "footer.jsp";
     public static final String PAGE_IMPORTS = PAGE_PREFIX_FRAGMENT + "imports.jsp";
     public static final String PAGE_RIGHT_MENI = PAGE_PREFIX_FRAGMENT + "right-menu.jsp";
+    public static final String PAGE_COMMENTS = PAGE_PREFIX_FRAGMENT + "comments.jsp";
+
 
 }

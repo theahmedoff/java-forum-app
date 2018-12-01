@@ -18,10 +18,9 @@ public class CommentDaoImpl implements CommentDAO{
     private final String GET_COMMENT_BY_ID_TOPIC_SQL = "select c.id_comment, c.description, c.write_date, u.id_user, u.first_name, u.last_name from comment c inner join user u on c.id_user = u.id_user where c.id_topic = ?";
 
     @Override
-    public boolean addComment(Comment comment) {
+    public void addComment(Comment comment) throws SQLException {
         Connection con = null;
         PreparedStatement ps = null;
-        boolean result = false;
         try {
             con = DbUtil.getConnection();
             ps = con.prepareStatement(SET_COMMENT_SQL);
@@ -30,17 +29,13 @@ public class CommentDaoImpl implements CommentDAO{
             ps.setInt(3, comment.getTopic().getId());
             ps.setInt(4, comment.getUser().getId());
             ps.executeUpdate();
-            result = true;
-        }catch (SQLException e){
-            e.printStackTrace();
         }finally {
             DbUtil.closeAll(con, ps);
         }
-        return result;
     }
 
     @Override
-    public List<Comment> getCommentByIdTopic(int id) {
+    public List<Comment> getCommentByIdTopic(int id) throws SQLException {
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -62,8 +57,6 @@ public class CommentDaoImpl implements CommentDAO{
                 c.setUser(u);
                 list.add(c);
             }
-        }catch (SQLException e){
-            e.printStackTrace();
         }finally {
             DbUtil.closeAll(con, ps, rs);
         }

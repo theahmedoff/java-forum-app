@@ -21,6 +21,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(name = "TopicServlet", urlPatterns = "/ts")
@@ -51,6 +53,7 @@ public class TopicServlet extends HttpServlet {
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         String action = null;
+        String address = null;
 
         if (request.getParameter("action") != null){
             action = request.getParameter("action");
@@ -69,14 +72,14 @@ public class TopicServlet extends HttpServlet {
             topic.setDesc(desc);
             topic.setUser(userID);
 
-            boolean result = topicService.newTopic(topic);
-            if (!result){
-                System.out.printf("Error insert topic");
+            try {
+                topicService.newTopic(topic);
+                request.setAttribute("message", MessageConstants.SUCCESS_TOPIC_ADD_MESSAGE);
+            } catch (SQLException e) {
+                e.printStackTrace();
+                request.setAttribute("message", MessageConstants.ERROR_MESSAGE_TOPIC_ADD);
             }
-
-            request.setAttribute("message", MessageConstants.SUCCESS_TOPIC_MESSAGE);
             request.getRequestDispatcher(NavigationConstants.PAGE_NEW_TOPIC).forward(request, response);
-
 
         }else if (action.equals(NavigationConstants.ACTION_TOPIC)){
             String reply = request.getParameter("reply");
@@ -90,19 +93,23 @@ public class TopicServlet extends HttpServlet {
             c.setTopic(t);
             System.out.println(c);
 
-            boolean result = commentService.addComment(c);
-            if (!result){
-                request.setAttribute("mes", MessageConstants.ERROR_MESSAGE_REPLY);
+            try {
+                commentService.addComment(c);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-
-            request.setAttribute("mes", MessageConstants.SUCCESS_COMMENT_MESSAGE);
-            request.getRequestDispatcher(NavigationConstants.PAGE_LOGIN);
 
         }else if (action.equals(NavigationConstants.ACTION_GET_POPULAR_TOPICS)){
             List<Topic> listTopics = updater.getPopularTopics();
             JSONArray jsonArray = new JSONArray(listTopics);
             response.setContentType("application/json");
             response.getWriter().write(jsonArray.toString());
+
+        }
+
+
+        if (address != null){
+            request.getRequestDispatcher(address).forward(request, response);
         }
     }
 }

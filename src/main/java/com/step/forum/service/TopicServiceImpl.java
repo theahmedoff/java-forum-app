@@ -4,38 +4,39 @@ import com.step.forum.dao.TopicDAO;
 import com.step.forum.dao.TopicDaoImpl;
 import com.step.forum.model.Topic;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class TopicServiceImpl implements TopicService {
 
     private TopicDAO topicDao;
 
-    public TopicServiceImpl(TopicDAO topicDao){
+    public TopicServiceImpl(TopicDAO topicDao) {
         this.topicDao = topicDao;
     }
 
     @Override
-    public List<Topic> getAllTopic() {
+    public List<Topic> getAllTopic()throws SQLException {
         return topicDao.getAllTopic();
     }
 
     @Override
-    public Topic getTopicById(int id) {
+    public Topic getTopicById(int id)throws SQLException {
         return topicDao.getTopicById(id);
     }
 
     @Override
-    public boolean incrementTopicViewCount(int id, int count) {
-        return topicDao.incrementTopicViewCount(id, count);
+    public void incrementTopicViewCount(int id, int count)throws SQLException {
+        topicDao.incrementTopicViewCount(id, count);
     }
 
     @Override
-    public boolean newTopic(Topic topic) {
-        return topicDao.newTopic(topic);
+    public void newTopic(Topic topic)throws SQLException {
+        topicDao.newTopic(topic);
     }
 
     @Override
-    public List<Topic> getPopularTopic() {
+    public List<Topic> getPopularTopic()throws SQLException {
         return topicDao.getPopularTopic();
     }
 }

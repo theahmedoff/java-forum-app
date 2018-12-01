@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(name = "CommentServlet", urlPatterns = "/cs")
@@ -41,7 +43,7 @@ public class CommentServlet extends HttpServlet {
         }
 
 
-        if (action.equals(NavigationConstants.ACTION_COMMENT)){
+        if (action.equals(NavigationConstants.ACTION_ADD_COMMENT)){
             String reply = request.getParameter("reply");
             User userID = (User) request.getSession().getAttribute("user");
             Integer topicID = Integer.valueOf(request.getParameter("id"));
@@ -53,20 +55,28 @@ public class CommentServlet extends HttpServlet {
             c.setTopic(t);
             System.out.println(c);
 
-            boolean result = commentService.addComment(c);
-            if (!result){
+            try {
+                commentService.addComment(c);
+                request.setAttribute("message", MessageConstants.SUCCESS_COMMENT_MESSAGE);
+            } catch (SQLException e) {
+                e.printStackTrace();
                 request.setAttribute("mes", MessageConstants.ERROR_MESSAGE_REPLY);
             }
 
-            request.setAttribute("mes", MessageConstants.SUCCESS_COMMENT_MESSAGE);
             request.getRequestDispatcher(NavigationConstants.PAGE_TOPIC).forward(request, response);
 
-        }else if (action.equals("get-comments")){
+        }else if (action.equals(NavigationConstants.ACTION_GET_COMMENTS_BY_TOPIC_ID)){
             System.out.println(request.getParameter("id"));
             int topicID = Integer.parseInt(request.getParameter("id"));
-            List<Comment> list = commentService.getCommentByIdTopic(topicID);
+            List<Comment> list = null;
+            try {
+                list = commentService.getCommentByIdTopic(topicID);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            System.out.println(list);
             request.setAttribute("list", list);
-            request.getRequestDispatcher("/WEB-INF/fragment/comment.jsp").forward(request, response);
+            request.getRequestDispatcher(NavigationConstants.PAGE_COMMENTS).forward(request, response);
 
         }
     }

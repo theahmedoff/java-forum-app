@@ -12,6 +12,7 @@ import com.step.forum.model.Role;
 import com.step.forum.model.User;
 import com.step.forum.service.UserService;
 import com.step.forum.service.UserServiceImpl;
+import com.step.forum.util.Config;
 import com.step.forum.util.CryptoUtil;
 import com.step.forum.util.ValidationUtil;
 
@@ -26,6 +27,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.rmi.server.UID;
+import java.sql.SQLException;
 import java.util.UUID;
 
 @WebServlet(name = "UserServlet", urlPatterns = "/us")
@@ -47,15 +49,12 @@ public class UserServlet extends HttpServlet {
     private void processRequest (HttpServletRequest request, HttpServletResponse response) throws  ServletException, IOException{
         String acion = null;
 
-
         if (request.getParameter("action") != null){
             acion = request.getParameter("action");
         }else {
             response.sendRedirect("/");
             return;
         }
-
-
 
         if(acion.equals(NavigationConstants.ACTION_REGISTER)){
 
@@ -70,7 +69,7 @@ public class UserServlet extends HttpServlet {
             }
 
             Part img = request.getPart("img");
-            Path pathToSaveFile = Paths.get(getServletContext().getRealPath("/"), "uploads", email);
+            Path pathToSaveFile = Paths.get(Config.getImageUploadsPath(), email);
 
             if (!Files.exists(pathToSaveFile)){
                 Files.createDirectories(pathToSaveFile);
@@ -94,10 +93,12 @@ public class UserServlet extends HttpServlet {
             user.setStatus(UserConstants.USER_ROLE_MANAGER);
 
             try {
-                boolean result = userService.register(user);
-                if (result){
+                try {
+                    userService.register(user);
                     request.setAttribute("message", MessageConstants.SUCCESS_REGISTER_MESSAGE);
                     request.getRequestDispatcher(NavigationConstants.PAGE_LOGIN).forward(request, response);
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
             }catch (DuplicateEmailException e){
                 e.printStackTrace();
@@ -105,15 +106,18 @@ public class UserServlet extends HttpServlet {
                 request.getRequestDispatcher(NavigationConstants.PAGE_REGISTER);
             }
 
-
-
         }else if (acion.equals(NavigationConstants.ACTION_DO_LOGIN)){
             String email = request.getParameter("email");
             String password = request.getParameter("password");
 
             try {
 
-                User user = userService.login(email, CryptoUtil.inputToHash(password));
+                User user = null;
+                try {
+                    user = userService.login(email, CryptoUtil.inputToHash(password));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
 
 
                 if (user != null){

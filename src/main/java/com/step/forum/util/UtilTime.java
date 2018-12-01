@@ -5,8 +5,10 @@ import com.step.forum.model.Topic;
 import com.step.forum.service.TopicService;
 import com.step.forum.service.TopicServiceImpl;
 
+import java.sql.SQLException;
 import java.time.*;
 import java.time.chrono.ChronoPeriod;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UtilTime {
@@ -44,7 +46,12 @@ public class UtilTime {
         System.out.println("Time: " + topicDate(timeNow));
 
         TopicService topicService = new TopicServiceImpl(new TopicDaoImpl());
-        List<Topic> list = topicService.getAllTopic();
+        List<Topic> list = new ArrayList<>();
+        try {
+            list = topicService.getAllTopic();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
         for (Topic topic : list){
             System.out.println(topicDate(topic.getShareDate()));

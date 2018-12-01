@@ -2,9 +2,10 @@ package com.step.forum.dao;
 
 import com.step.forum.model.Comment;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public interface CommentDAO {
-    boolean addComment(Comment comment);
-    List<Comment> getCommentByIdTopic(int id);
+    void addComment(Comment comment) throws SQLException;
+    List<Comment> getCommentByIdTopic(int id) throws SQLException;
 }
